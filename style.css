@@ -182,7 +182,12 @@ table tbody tr:hover {
 
   .button-group {
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;  /* ditingkatkan dari 10px */
+    padding: 0 10px;
+  }
+
+  .button-group button {
+    margin-bottom: 8px;
   }
 
   table th,
